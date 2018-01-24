@@ -1,0 +1,125 @@
+*{
+    margin=0px;
+    padding=0px;
+    border=0px;
+}
+.wrapper{
+    background: radial-gradient(circle, white, #211015);
+    height: 1080px;
+    width: 980px;
+}
+h2{
+    color: #fffefe;
+    background: linear-gradient(#afaeb3, #888694, #afaeb3);
+    margin:0px;
+    padding: 3px;
+}
+.header{
+    background-color: #f4f4f4;
+    height:80px;
+    width: auto;
+}
+.header h1{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header h3{
+    display: inline-block;
+    margin-left: 400px;
+    font-size: 23px;
+}
+.photo{
+    display: inline-block;
+}
+.photo img{
+    display: inline-block;
+    background-color: #c0c0c0;
+    padding: 5px;
+    width: auto;
+    height: 250px;
+    margin: 20px;
+}
+.about{
+    display: inline-block;
+    background: linear-gradient(to bottom right, #ffffff, #dacbd9);
+    width: 493px;
+    height: 260px;
+    margin: 20px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.about p{
+    margin-left:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.maintext{
+    display: inline-block;
+    margin-top: 25px;
+    vertical-align: top;
+}
+.body{
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.body img{
+    width: 280px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#reading{
+    text-decoration: underline;
+    display: inline-block;
+}
+.content{
+    background: linear-gradient(to bottom right, #ffffff, #dacbd9);
+    height: 225px;
+    width: 270px;
+    display: inline-block;
+    margin-top:-6px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.techcontent{
+    background: linear-gradient(to bottom right, #ffffff, #dacbd9);
+    height: 150px;
+    width: 260px;
+    padding: 10px;
+}
+.techcontent img{
+    height:40px;
+    width:40px;
+    margin: 5px;
+}
+.button{
+    background-color: #407d61;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    margin-left: 85px;
+    margin-right: 40px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.footer{
+    background-color: #f4f4f4;
+    height:80px;
+    width: 980px;
+    text-align: center;
+}
+#media{
+    text-align: center;
+    text-decoration: underline;
+    vertical-align: bottom;
+    line-height: 60px;
+}
+#media img{
+    width:20px;
+    height:20px;
+    vertical-align: text-bottom;
+    margin: 2px;
+}
