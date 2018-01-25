@@ -1,0 +1,219 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    height: auto;
+    width:970px;
+    background-color: black;
+}
+.header{
+    height: 220px;
+    width:970px;
+    background-color: #245076;
+    display: inline-block
+}
+.header img{
+    width: auto;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#search{
+    height: 120px;
+    width:300px;
+    margin-left:160px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #245076;
+    padding: 5px
+}
+#search p{
+    display: inline-block;
+    text-align: right;
+    margin-left:100px;
+    color: white;
+    line-height: 25px;
+}
+#search span{
+    color: black;
+}
+#search a{
+    margin-left: 0px;
+    color: #c3a909
+}
+#search .bar{
+    height: 40px;
+    width: 150px;
+    border-width: 15px 90px 15px 40px;
+    border-style: solid;
+    border-color: #444444;
+    border-radius: 6px;
+    display: inline-block
+}
+#search .bar input{
+    height: 35px;
+    border: 3px inset #a5a5a5;
+}
+input[type=text]{
+    text-align: center;
+    color:#c1c1c1
+}
+#search button{
+    background-color: #245076;
+    color: white;
+    padding: 12px 18px;
+    display: inline-block;
+    margin-left: -90px;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 4px 4px 3px 0px #333333
+}
+.nav{
+    width: 800px;
+    height: 50px;
+    background-color: #477ead;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 8px 4px #212f3b;
+}
+.nav a{
+    text-decoration: none;
+    margin: 15px;
+    line-height: 70px;
+    font-size: 22px;
+    text-align: center;
+    color: #ebf0f6;
+    position: relative;
+    left: 12px;
+    bottom: 8px;
+}
+.main{
+    height:380px;
+    width:970px;
+    background-color: #245076
+}
+.sidebar{
+    height: 300px;
+    width: 220px;
+    background-color: #245076;
+    display: inline-block;
+    margin: 30px 20px 40px 40px;
+    vertical-align: top
+}
+.sidebar ul{
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    color: yellow;
+    list-style-position: inside;
+    font-size: 20px;
+    line-height: 35px;
+}
+.sidebar a{
+    color:#fafbfc;
+    line-height: 30px;
+
+}
+.zen{
+    height: 280px;
+    width: 600px;
+    background-color: #245076;
+    display: inline-block;
+    margin: 10px 30px 30px 30px;
+    padding:10px;
+    text-align: center;
+    color: #fafbfc;
+}
+.zen h3{
+    color: #e6c537;
+    padding: 3px;
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: inherit;
+    font-style: oblique;
+}
+.zen h4{
+    padding: 3px;
+    font-size: 20px;
+    font-weight: inherit;
+    margin: 10px;
+}
+.blankspace{
+    background-color: white;
+    height:300px;
+    width:970px;
+    text-align: center;
+}
+.blankspace h3{
+    padding:5px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.blankspace a{
+    color: #9ec2e2;
+    text-decoration: none;
+    line-height: 22px;
+}
+.blankspace ul{
+    list-style-position: initial;
+    list-style-type: square;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.blankspace p{
+    font-size: 16px;
+}
+.getstart{
+    height: 260px;
+    width: 340px;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #73a7d5;
+    line-height: 18px;
+    padding: 0px 50px 0px 0px;
+}
+.application{
+    height: 260px;
+    width: 340px;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #73a7d5;
+    line-height: 18px;
+    padding: 0px 40px 0px 0px;
+}
+.footer{
+    height:130px;
+    width:970px;
+    background:linear-gradient(#245177, #3374ac)
+}
+.footer a{
+    display: inline-block;
+    margin: 55px 20px 20px 25px;
+    position: relative;
+    left: 60px;
+    color: #5489b8;
+    text-decoration: none;
+    font-size: 22px;
+}
+.footer p{
+    text-align: center;
+    color: #639acb;
+}
