@@ -1,0 +1,243 @@
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container{
+    height: 1100px;
+    width: 900px;
+    background-color: #ffffff;
+}
+.header{
+    width: 900px;
+    height: 160px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.header img{
+    width:110px;
+    height:110px;
+    position: absolute;
+}
+.header h1{
+    margin-left: 120px;
+    font-size: 44px;
+    line-height: 80px;
+    color:#494949;
+    font-weight: lighter;
+}
+.header span{
+    color:#22659e;
+}
+.header h2{
+    background:linear-gradient(#23669f,#5283ac,#23669f);
+    font-size: 38px;
+    line-height: 80px;
+    color: white;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.left{
+    height:940px;
+    width:320px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    margin-right:-4px;
+}
+.buttons{
+    height:290px;
+    width:270px;
+    background-color: #ffffff;
+    margin: 0px 20px;
+    border-bottom: 4px solid lightgray;
+    padding: 5px;
+}
+.buttons h2{
+    margin-top: 15px;
+}
+.buttons h2 span{
+    color:red;
+}
+.buttons p{
+    margin-top: 20px;
+    font-size: 23px;
+    line-height: 26px;
+}
+.buttons p span{
+    color:blue;
+}
+.buttons button{
+    width: 220px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-size: 22px;
+    color: white;
+    box-shadow: 3px 3px 6px 0px grey;
+}
+#watch{
+    margin: 40px 20px 5px 20px;
+    background: linear-gradient(#6b9dc6, #25679f)
+}
+#resources{
+    margin: 0px 20px 20px 20px;
+    background:linear-gradient(#ebab53, #ef7600)
+}
+.ad{
+    height:420px;
+    width:280px;
+    background-color: #ffffff;
+    margin: 20px 20px
+}
+.ad h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding:10px 0px 30px 30px;
+    font-weight: 400;
+}
+#matrix{
+    height: 420px;
+    width: 280px;
+}
+#ninja{
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left:90px;
+    top: 620px;
+}
+.ad button{
+    padding:10px 25px;
+    color:white;
+    font-size: 26px;
+    border-radius: 8px;
+    background-color: #3cc9df;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+.right{
+    height:940px;
+    width: 580px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+}
+.phone{
+    height:100px;
+    width: 580px;
+    background:linear-gradient(to top right, #ffffff,#e9e9e9);
+    display:inline-block;
+    border-bottom: 2px solid #b0b0b0;
+    color:#8f8f8f;
+}
+.phone h4{
+    display: inline-block;
+    margin: 10px 0px 50px 10px;
+    vertical-align: top;
+    font-weight: 400;
+    color:#6792b8
+}
+.phone p{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right
+}
+.phone h1{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left:365px;
+    bottom: 58px;
+    line-height: 40px;
+    color:#01c0df;
+}
+.phone h5{
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 140px;
+}
+#house{
+    width:40px;
+    height:40px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+#tele{
+    width: 80px;
+    height: 80px;
+    margin-left: 185px;
+
+}
+.main{
+    height:600px;
+    width:580px;
+    background-color: #ffffff
+}
+.main h2{
+    color:#25679f
+}
+.main ul{
+    list-style-position: inside;
+}
+.main ol{
+    list-style-position: inside;
+}
+.main li{
+    font-size: 18px;
+}
+.main img{
+    width:400px;
+    height:auto;
+    margin: 0px 70px 0px 120px;
+}
+.blue{
+    color: #3cc9df
+}
+.bold{
+    font-weight: bolder;
+}
+.bigthree{
+    height:200px;
+    width: 570px;
+    background-color: #ffffff;
+    border: 5px solid #0487e0;
+    border-bottom: 0px;
+    display: inline-block;
+}
+.bigthree img{
+    height: 170px;
+    width: 190px;
+    display: inline-block;
+}
+.bigthree h1{
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: top;
+    color: #306ea4
+}
+.bigthree p{
+    font-size: 18px;
+    width: 323px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 195px;
+    bottom: 150px;
+    line-height: 24px;
+}
+.bigthree span{
+    display: inline-block;
+    vertical-align: top;
+}
+.bigthree a{
+    text-decoration: none;
+    color:#50b7c8;
+}
+#italic{
+    font-style: italic;
+}
